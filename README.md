@@ -3,7 +3,7 @@ RESTful service for QUIZ system
 
 # Install and start project
 
-Requires [Node.js](https://nodejs.org/) v11+ to run.
+Requires [Node.js](https://nodejs.org/) v11+ to run, and PostgreSQL v9+.
 
 ```
 $ npm install pm2 -g
