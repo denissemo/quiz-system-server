@@ -1,0 +1,19 @@
+{
+    "apps": [
+        {
+            "name": "quiz-system-server",
+            "script": "api/index.js",
+            "watch": false,
+            "instance_var": "0",
+            "ignore_watch": [
+                "node_modules",
+                "logs",
+                ".idea"
+            ],
+            "env": {
+                "NODE_ENV": "production",
+                "LOG_LEVEL": "debug"
+            }
+        }
+    ]
+}
