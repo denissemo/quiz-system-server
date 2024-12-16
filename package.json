@@ -1,0 +1,35 @@
+{
+    "name": "quiz-system-server",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "scripts": {
+        "start": "node api/index.js",
+        "dev-start": "pm2 start development.json",
+        "prod-start": "pm2 start production.json",
+        "migrate": "node_modules/.bin/sequelize db:migrate",
+        "migrate:undo": "node_modules/.bin/sequelize db:migrate:undo"
+    },
+    "keywords": [],
+    "author": "Denis Semenov (denissemo1999@gmail.com)",
+    "devDependencies": {
+        "pm2": "^3.5.1"
+    },
+    "dependencies": {
+        "axios": "^0.19.2",
+        "@koa/cors": "^3.1.0",
+        "koa": "^2.12.1",
+        "koa-bodyparser": "^4.3.0",
+        "koa-logger": "^3.2.1",
+        "koa-router": "^9.0.1",
+        "koa-static": "^5.0.0",
+        "winston": "^3.2.1",
+        "winston-daily-rotate-file": "^4.5.0",
+        "logform": "^2.1.2",
+        "pg": "^8.2.1",
+        "sequelize": "^5.21.13",
+        "sequelize-cli": "^5.5.1",
+        "crypto": "^1.0.1",
+        "sugar": "^2.0.6"
+    }
+}

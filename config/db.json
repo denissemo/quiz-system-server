@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "quiz",
+    "password": "quiz",
+    "database": "quiz_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "logging": true
+  },
+  "test": {
+    "username": "quiz-test",
+    "password": "quiz-test",
+    "database": "quiz_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "logging": false
+  },
+  "production": {
+    "username": "quiz-prod",
+    "password": "quiz-prod",
+    "database": "quiz_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "logging": false
+  }
+}
